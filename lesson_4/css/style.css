@@ -1,0 +1,32 @@
+@import url("reset.css");
+
+.header>.block {
+   color: blue;
+}
+#ukraine {
+   color: red;
+}
+.title {
+color: green;
+}
+.block-text .list{
+   color: chocolate;
+}
+.numbered-list {
+   color: darkblue;
+}
+.block1 {
+   color: cornflowerblue;
+}
+.text {
+   color: goldenrod;
+}
+.list{
+   color: darkmagenta;
+}
+[class*="__container"]{
+   color: green;
+}
+.link {
+   color: blue;
+}
