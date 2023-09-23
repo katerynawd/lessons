@@ -1,0 +1,12 @@
+@font-face {
+   font-family: "DejaVuSans";
+   src: 
+   url("../fonts/DejaVuSans-Bold.woff2") format("woff2"),
+   url("../fonts/DejaVuSans-Bold.woff") format("woff"),
+   url("../fonts/DejaVuSans-Oblique.woff2") format("woff2"),
+   url("../fonts/DejaVuSans-Oblique.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+

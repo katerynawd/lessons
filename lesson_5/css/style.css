@@ -1,0 +1,118 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+
+body{
+   font-family: "Inter",sans-serif;
+   font-size: 18px;
+   color: #7d7d7d;
+   font-weight: 400;
+}
+.header, 
+.block {
+   font-family: "DejaVuSans-Oblique";
+   font-size: 18px;
+   color: #4e139296;
+   text-align: center;
+   font-style: oblique;
+   line-height: 1.27;
+}
+.block1{
+font-family: "Inter",sans-serif;
+color: #5dd4a6;
+font-size: 15px;
+text-align: center;
+text-transform:capitalize;
+letter-spacing: 2px;
+line-height: 1.27;
+}
+.title {
+   font-family: "DejaVuSans-Bold", sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   color: rgba(60, 60, 158, 0.712);
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 2px 2px 5px #1c3fb3,5px -2px 8px #3c3d4179;
+   text-transform: uppercase;
+   line-height: 1.40;
+}
+.block2{
+   font-family:"Inter" ;
+   font-size: 20px;
+   text-align: center;
+   text-decoration: line-through #1cb3abc0;
+   line-height: 1.27;
+}
+.block-text, 
+.consulting {
+font-family: "Inter";
+font-size: 18px;
+font-weight:400;
+text-align: left;
+line-height: 1.46;
+}
+.sub-title {
+   font-family: "Poppins";
+   font-size: 30px;
+   font-weight: 600;
+   color: #37393f;
+   text-align: left;
+   text-transform: capitalize;
+   line-height: 1.27;
+
+}
+.sub-title2 {
+   font-family: "Poppins";
+   font-size: 20px;
+   color: #6b77e5;
+   text-align: left;
+   line-height: 1.27;
+}
+.text{
+   font-family: "Inter";
+   font-size: 18px;
+   line-height: 1.46;
+   text-align: left;
+
+}
+.project {
+   font-family: "Poppins";
+   font-size: 40px;
+   font-weight: 700;
+   color: #37393f;
+   line-height: 1.27;
+   text-align: left;
+}
+.list {
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 500;
+   text-align: left;
+   line-height: 1.46;
+}
+.numbered-list {
+font-family: "Inter";
+font-size: 18px;
+font-weight: 500;
+text-align: left;
+line-height: 1.46;
+}
+.text1{
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+   text-align: left;
+}
+.link {
+   font-family:"DejaVuSans-Oblique";
+   font-size: 20px;
+   font-style: oblique;
+   color: rgba(216, 16, 16, 0.719);
+   line-height: 1.27;
+}
