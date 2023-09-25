@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProHeavy.eot');
+    src: local('Bandera Pro Heavy'), local('BanderaProHeavy'),
+        url('BanderaProHeavy.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProHeavy.woff2') format('woff2'),
+        url('BanderaProHeavy.woff') format('woff'),
+        url('BanderaProHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaPro.eot');
+    src: local('Bandera Pro Regular'), local('BanderaPro'),
+        url('BanderaPro.eot?#iefix') format('embedded-opentype'),
+        url('BanderaPro.woff2') format('woff2'),
+        url('BanderaPro.woff') format('woff'),
+        url('BanderaPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProMedium-Italic.eot');
+    src: local('Bandera Pro Medium Italic'), local('BanderaProMedium-Italic'),
+        url('BanderaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProMedium-Italic.woff2') format('woff2'),
+        url('BanderaProMedium-Italic.woff') format('woff'),
+        url('BanderaProMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProHeavy-Italic.eot');
+    src: local('Bandera Pro Heavy Italic'), local('BanderaProHeavy-Italic'),
+        url('BanderaProHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProHeavy-Italic.woff2') format('woff2'),
+        url('BanderaProHeavy-Italic.woff') format('woff'),
+        url('BanderaProHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaPro-Italic.eot');
+    src: local('Bandera Pro Italic'), local('BanderaPro-Italic'),
+        url('BanderaPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BanderaPro-Italic.woff2') format('woff2'),
+        url('BanderaPro-Italic.woff') format('woff'),
+        url('BanderaPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaPro-Bold.eot');
+    src: local('Bandera Pro Bold'), local('BanderaPro-Bold'),
+        url('BanderaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BanderaPro-Bold.woff2') format('woff2'),
+        url('BanderaPro-Bold.woff') format('woff'),
+        url('BanderaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProThin-Italic.eot');
+    src: local('Bandera Pro Thin Italic'), local('BanderaProThin-Italic'),
+        url('BanderaProThin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProThin-Italic.woff2') format('woff2'),
+        url('BanderaProThin-Italic.woff') format('woff'),
+        url('BanderaProThin-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaPro-BoldItalic.eot');
+    src: local('Bandera Pro Bold Italic'), local('BanderaPro-BoldItalic'),
+        url('BanderaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BanderaPro-BoldItalic.woff2') format('woff2'),
+        url('BanderaPro-BoldItalic.woff') format('woff'),
+        url('BanderaPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProLight.eot');
+    src: local('Bandera Pro Light'), local('BanderaProLight'),
+        url('BanderaProLight.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProLight.woff2') format('woff2'),
+        url('BanderaProLight.woff') format('woff'),
+        url('BanderaProLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProThin.eot');
+    src: local('Bandera Pro Thin'), local('BanderaProThin'),
+        url('BanderaProThin.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProThin.woff2') format('woff2'),
+        url('BanderaProThin.woff') format('woff'),
+        url('BanderaProThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProLight-Italic.eot');
+    src: local('Bandera Pro Light Italic'), local('BanderaProLight-Italic'),
+        url('BanderaProLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProLight-Italic.woff2') format('woff2'),
+        url('BanderaProLight-Italic.woff') format('woff'),
+        url('BanderaProLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bandera Pro';
+    src: url('BanderaProMedium.eot');
+    src: local('Bandera Pro Medium'), local('BanderaProMedium'),
+        url('BanderaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('BanderaProMedium.woff2') format('woff2'),
+        url('BanderaProMedium.woff') format('woff'),
+        url('BanderaProMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
