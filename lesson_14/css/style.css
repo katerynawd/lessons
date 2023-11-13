@@ -1,0 +1,391 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body{
+   font-family: "DM Serif Display",sans-serif;
+   font-size: 18px;
+   
+
+   
+}
+
+.main__container {
+   width: 100%;
+   height: 100%;
+}
+
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+ 
+}
+.box-car{
+   padding:300px 50px 0px 50px;
+}
+.box-car {
+   background: url("../img/bk.webp") 100% 100%/ cover repeat;
+  width: 1500px;
+  height: 600px;
+  position:relative;
+animation: back 2s linear infinite 0.5s;
+}
+@keyframes back{
+   0%{
+      background-position: 0px;
+   }
+   100%{
+background-position:-1500px;
+   }
+}
+
+
+.box-car__section {
+   perspective: 100px;
+   transform-style: preserve-3d; 
+   perspective-origin:center;
+	
+}
+
+
+
+.body-car {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.body-car__roof {
+   border: 10px solid  rgb(16, 187, 38);
+   position: absolute;
+   top: 0px;
+   left: 50px;
+   width: 300px;
+   height: 10px;
+   
+}
+.body-car__roof::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: -25px;
+   width: 10px;
+   height: 100px;
+   background-color:rgb(16, 187, 38);
+   transform: rotate(-20deg);
+}
+
+.body-car__roof::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: -25px;
+   width: 10px;
+   height: 100px;
+   background-color:rgb(16, 187, 38);
+   transform: rotate(20deg);
+}
+.body-car__corps {
+   transform: translateY(100px);
+   background-color: rgb(16, 187, 38);
+   width: 500px;
+   height: 100px;
+   border-radius: 10px;
+   position: relative;
+}
+.body-car__wheel{
+   position: absolute;
+   top: 170px;
+   left: 50px;
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   background-color: #000;
+
+}
+.body-car__wheel::before,
+.right-wheel::before{
+   content: "";
+   position: absolute;
+   top: 25%;
+   left: 25%;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background-color: beige;
+}
+.body-car__wheel::after,
+.right-wheel::after{
+   content: "";
+   top: 25%;
+   left: 48%;
+   position: absolute;
+   width: 3px;
+   height: 50px;
+   background-color: #2f4f4f;
+   
+}
+.body-car__image {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   left: 90px;
+   top: 210px;
+   position: absolute;
+  
+}
+
+.car-image {
+   
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   left: 390px;
+   top: 210px;
+   position: absolute;
+}
+
+.right-wheel{
+position: absolute;
+top: 170px;
+left: 350px;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-color: #000;
+}
+.body-car__wheel,
+.right-wheel{
+   animation:wheels 0.2s linear infinite alternate 0.5s;
+
+}
+@keyframes wheels{
+   0%{
+      transform:rotate(0deg);
+   } 
+
+   100% {
+      transform: rotate(360deg);
+
+   }
+}
+
+.body-car__headlight{
+   position: absolute;
+   top: 110px;
+   right: 895px;
+   width: 40px;
+   height: 20px;
+   transform: skew(10deg,10deg);
+   background-color: gold;
+   border-radius: 10px;
+   border: 1px solid #000;
+}
+
+.body-car__crossing::after {
+   content: "";
+   position: absolute;
+   top: 90px;
+   left: 145px;
+   width: 3px;
+   height: 102px;
+   background-color: #000;
+   transform: rotate(15deg);
+}
+.body-car__crossing::before{
+   content: "";
+   position: absolute;
+   top: 90px;
+   left: 18px;
+   width: 3px;
+   height: 100px;
+   background-color: #000;
+   transform: rotate(-10deg);
+}
+.body-car__crossing {
+   border: 10px solid  rgb(16, 187, 38);
+   position: absolute;
+   top: 0px;
+   left: 200px;
+   height: 100px;
+}
+
+.body-car__door {
+position: absolute;
+top: 110px;
+left: 270px;
+transform: rotateX(20deg);
+width: 50px;
+height: 10px;
+background-color: darkgray;
+}
+.body-car__windows::after {
+   position: absolute;
+   content: "";
+   bottom: 0px;
+   left: 25px;
+   width: 175px;
+   height: 100px;
+   background-color: rgba(17, 17, 17, 0.712);
+   
+}
+
+
+
+.box-car__section .body-car__windows{
+   transform: rotateX(3deg);
+}
+
+
+.body-car__windows::before {
+   position: absolute;
+   content: "";
+   bottom: 0px;
+   right: 1040px;
+   width: 170px;
+   height: 100px;
+   background-color:rgba(17, 17, 17, 0.712) ;
+   
+}
+
+
+
+.box-car__section .body-car__windows::before{
+   transform: skewX(30deg);
+}
+
+
+.body-car__pipe {
+position: absolute;
+top: 170px;
+left: -30px;
+width: 30px;
+height: 10px;
+background-color: #000;
+}
+
+.light-back {
+   position: absolute;
+   top: 130px;
+   left: 0;
+   width: 20px;
+   height: 10px;
+   background-color: rgb(245, 179, 11);
+   border: 1px solid saddlebrown;
+}
+.body-car__mirror {
+position: absolute;
+top: 70px;
+right: 1025px;
+width: 50px;
+height: 30px;
+background-color: lightsteelblue;
+border-radius: 30%;
+border: 2px solid #000;
+
+}
+.body-car__pessenger img {
+   position: absolute;
+   left: 220px;
+   top: 30px;
+   width: 70px;
+   height: 75px;
+
+}
+
+.container-transition {
+   margin: 0 auto;
+   max-width: 1200px;
+   padding: 100px 10px;
+}
+
+.transition-body__section p {
+   width: 300px;
+   height: 300px;
+   background-color: #ff4500;
+   display: inline-block;
+   position: relative;
+text-align: center;
+padding: 150px 0px;
+}
+.transition-body__section p:not(:last-child){
+   margin-right: 30px;
+   margin-bottom: 30px;
+}
+.transition-body__section :nth-child(1){
+   transition-duration:0.3s;
+}
+.transition-body__section :nth-child(1):hover{
+background-color: #bdb76b;
+transition-duration: 0.6s;
+}
+.transition-body__section :nth-child(2) {
+   transition-duration: 0.5s;
+   transition-property: hight;
+}
+.transition-body__section :nth-child(2):hover{
+   transition-duration: 1s;
+   height: 400px;
+}
+.transition-body__section :nth-child(3){
+   transition-delay: 1s;
+}
+.transition-body__section :nth-child(3):hover{
+background-color:#bdb76b ;
+}
+.transition-body__section :nth-child(4){
+transition-duration: 0.5s;
+transition-timing-function: linear;
+}
+.main-transition__body .transition-body__section :nth-child(4):hover{
+   transform: rotate(-360deg);
+}
+.transition-body__section :nth-child(5){
+transition: all 03s;
+}
+.transition-body__section :nth-child(5):hover{
+height: 400px;
+width: 400px;
+background-color:#bdb76b ;
+}
+.transition-body__section :nth-child(6){
+   transition: width 0.2s ease-out 0.5s,
+   hight 0.4s linear 0.3s;
+   
+}
+.transition-body__section :nth-child(6):hover{
+   width: 400px;
+   height: 400px;
+   background-color:rgb(16, 187, 38);
+}
+.container-animation {
+   margin: 0 auto;
+   max-width: 1200px;
+   padding: 20px 10px;
+}
+.section-animation p {
+   width: 300px;
+   height: 300px;
+   position: relative;
+   background-color:#ff4500 ;
+   display: inline-block;
+   text-align: center;
+   padding: 150px 0px;
+   animation: anima 10s ease infinite alternate running 0.2s none;
+}
+@keyframes anima{
+   0%{
+left: 0%;
+   }
+   50%{
+      border-radius: 30%;
+      background-color: rgba(255, 0, 0, 0.651);
+      transform: rotate(-180deg);
+   }
+   100%{
+      left: 80%;
+
+   }
+}
