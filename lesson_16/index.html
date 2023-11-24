@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lesson 16</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <div class="main__section">
+               <h1 class="main__title">
+                  Contact Us
+               </h1>
+               <h2 class="main__sub-title">
+                  Request A Call Back !
+               </h2>
+               <form class="main__form form" id="some-form" enctype="multipart/form-data" action="#" method="get">
+                  <div class="form__body">
+                     <div class="form__item">
+                        <input name="name" type="text" placeholder="Your Name">
+                     </div>
+                     <div class="form__item">
+                        <input name="mail" type="email" placeholder="Email Address">
+                     </div>
+                     <div class="form__item">
+                        <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off">
+                     </div>
+                     <div class="form__item">
+                        <input type="email" name="mail" placeholder="Subject" autocomplete="off">
+                     </div>
+                     <div class="form__item item-textarea">
+                        <textarea class="form__textarea" required minlength="5" name="Message..."
+                           placeholder="Message..."></textarea>
+                     </div>
+                  </div>
+                  <button form="some-form" type="submit" class="form__button">Submit</button>
+               </form>
+            </div>
+         </div>
+         <div class="main-euforia euforia">
+            <div class="euforia__container">
+               <div class="euforia__section">
+                  <h2 class="euforia__title title-info">
+                     My Info
+                  </h2>
+                  <h3 class="euforia__subtitle subtitle-add">Add Address</h3>
+                  <form class="euforia__form euforia-form" id="some-form-euforia" action="#" method="POST"
+                     enctype="multipart/form-data">
+                     <div class="euforia-form__body">
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="fname">First Name*</label>
+                           <input class="item-euforia__input" id="fname" type="text" name="fname"
+                              placeholder="First Name">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="lname">Last Name*</label>
+                           <input class="item-euforia__input" id="lname" type="text" name="lname"
+                              placeholder="Last Name">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="country">Country / Region*</label>
+                           <input class="item-euforia__input" id="country" type="text" name="country"
+                              placeholder="Country / Region">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="optional-company">Company Name</label>
+                           <input class="item-euforia__input" id="optional-company" type="text" name="company"
+                              placeholder="Company (optional)">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="adress">Street Address*</label>
+                           <input class="item-euforia__input" id="adress" type="text" name="adress"
+                              placeholder="House number and street name">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="optional-apartment">Apt, suite, unit</label>
+                           <input class="item-euforia__input" id="optional-apartment" type="text" name="apartment"
+                              placeholder="apartment, suite, unit, etc. (optional)">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="city">City*</label>
+                           <input class="item-euforia__input" id="city" name="city" type="text"
+                              placeholder="Town / City">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="state">State*</label>
+                           <select id="state" name="select">
+                              <option selected value="01">State</option>
+                           </select>
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="phone">Phone*</label>
+                           <input class="item-euforia__input" id="phone" name="phone" type="tel" placeholder="Phone">
+                        </div>
+                        <div class="euforia-form__item item-euforia">
+                           <label class="item-euforia__label" for="postal">Postal Code*</label>
+                           <input class="item-euforia__input" id="postal" type="tel" name="postal"
+                              placeholder="Postal Code">
+                        </div>
+                        <div class="euforia-form__item-textarea textarea-euforia">
+                           <label class="euforia-form__label" for="instruction">Delivery Instruction</label>
+                           <textarea id="instruction" class="euforia-form__textarea" name="Delivery Instruction"
+                              placeholder="Delivery Instruction"></textarea>
+                        </div>
+                        <div class="euforia-form__item-checkbox checkbox">
+                           <div class="checkbox__container">
+                              <input id="check" type="checkbox" name="shop" class="checkbox__input">
+                              <label class="checkbox__label" for="check">Set as default shipping address</label>
+                           </div>
+                           <div class="checkbox__container">
+                              <input type="checkbox" id="check-2" name="bill" class="checkbox__input">
+                              <label for="check-2" class="checkbox__label">Set as default billing address</label>
+                           </div>
+                        </div>
+                     </div>
+                     <button form="some-form" type="submit" class="euforia-form__button button-save">Save</button>
+                     <button form="some-form" type="reset" class="euforia-form__button button-reset">Cancel</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="main-check check">
+            <div class="check__container">
+               <div class="check__section">
+                  <h2 class="check__title">
+                     Check Out
+                  </h2>
+                  <form action="#" method="GET" class="check__some-form form-check" id="some-form-check"
+                     enctype="multipart/form-data">
+                     <h3 class="form-check__title">
+                        Billing Details
+                     </h3>
+                     <div class="form-check__body-one body-one">
+                        <div class="body-one__container">
+                           <label for="fname-2" class="body-one__label">First Name*</label>
+                           <input type="text" id="fname-2" class="body-one__input" name="fname-2"
+                              placeholder="First Name">
+                        </div>
+                        <div class="body-one__container">
+                           <label for="lname-2" class="body-one__label">Last Name*</label>
+                           <input type="text" id="lname-2" class="body-one__input" name="lastname"
+                              placeholder="Last Name">
+                        </div>
+                        <div class="body-one__container">
+                           <label for="country-2" class="body-one__label">Country / Region*</label>
+                           <input type="text" id="country-2" class="body-one__input" name="country-2"
+                              placeholder="Country / Region">
+                        </div>
+                        <div class="body-one__container">
+                           <label for="company-2" class="body-one__label">Company Name</label>
+                           <input type="text" id="company-2" class="body-one__input" name="company-2"
+                              placeholder="Company (optional)">
+                        </div>
+                        <div class="body-one__container">
+                           <label for="address-2" class="body-one__label">Street Address*</label>
+                           <input type="text" id="address-2" class="body-one__input" name="address-2"
+                              placeholder="House number and street name">
+                        </div>
+                        <div class="body-one__container">
+                           <label for="apartment-2" class="body-one__label">Apt, suite, unit</label>
+                           <input type="text" id="apartment-2" class="body-one__input" name="apartment-2"
+                              placeholder="apartment, suite, unit, etc. (optional)">
+                        </div>
+                     </div>
+                     <div class="form-check__body-one body-two">
+                        <div class="body-two__container">
+                           <label for="city-2" class="body-two__label">City*</label>
+                           <input type="text" id="city-2" class="body-two__input" name="city-2"
+                              placeholder="Town / City">
+                        </div>
+                        <div class="body-two__container">
+                           <label for="state-2" class="body-two__label">State*</label>
+                           <select id="state-2" name="place">
+                              <option selected value="01">State</option>
+                           </select>
+                        </div>
+                        <div class="body-two__container">
+                           <label for="postal-2" class="body-two__label">Postal Code*</label>
+                           <input type="tel" id="postal-2" class="body-two__input" name="postal-2"
+                              placeholder="Postal Code">
+                        </div>
+                        <div class="body-two__container">
+                           <label for="phone-2" class="body-two__label">Phone*</label>
+                           <input type="tel" id="phone-2" class="body-two__input input-phone" name="phone-2"
+                              placeholder="Phone">
+                        </div>
+                     </div>
+                     <button form="some-form-check" type="button" class="form-check__button">Continue to
+                        delivery</button>
+                     <div class="form-check__checkbox checkbox-item">
+                        <div class="checkbox-item__savemy">
+                           <input type="checkbox" name="savemy" id="savemy" class="checkbox-item__input">
+                           <label for="savemy" class="checkbox-item__label">Save my information for a faster
+                              checkout</label>
+                        </div>
+                     </div>
+                  </form>
+                  <form action="#" method="POST" class="check__some-form form-shoping" id="some-form-shoping">
+                     <div class="form-shoping__container form-shoping__shipp ">
+                        <h3 class="form-shoping__title">Shipping Address</h3>
+                        <h5 class="form-shoping__sub-title">Select the address that matches your card or payment method.
+                        </h5>
+                        <div class="form-shoping__body">
+                           <div class="form-shoping__item">
+                              <input type="radio" name="billing-add" id="some" value="billing"
+                                 class="form-shoping__input">
+                              <label for="some" class="form-shoping__label"> Same as Billing address</label>
+                           </div>
+                           <div class="form-shoping__item">
+                              <input type="radio" name="billing-add" id="use" value="shoping"
+                                 class="form-shoping__input">
+                              <label for="use" class="form-shoping__label"> Use a different shipping address</label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-shoping__container form-shoping__method ">
+                        <h3 class="form-shoping__title form-shoping__title--method">Shipping Method</h3>
+                        <div class="form-shoping__body">
+                           <div class="form-shoping__arrives">
+                              <p>Arrives by Monday, June 7</p>
+                           </div>
+                           <div class="form-shoping__delivery delivery-item">
+                              <div class="delivery-item__content">
+                                 <p class="delivery-item__title">Delivery Charges</p>
+                                 <p class="delivery-item__price">$5.00</p>
+                              </div>
+                              <p class="delivery-item__text">Additional fess may apply</p>
+                           </div>
+                        </div>
+                     </div>
+                     <h3 class="form-shoping__title">Payment Method</h3>
+                     <h5 class="form-shoping__sub-title">All transactions are secure and encrypted.</h5>
+                     <div class="form-shoping__container">
+                        <div class="form-shoping__body form-shoping__body--cards">
+                           <div class="form-shoping__choice">
+                              <input type="radio" id="card" name="choice" class="form-shoping__choice-input">
+                              <label for="card" class="form-shoping__choice-label">Credit Card</label>
+                              <p class="form-shoping__choice-text">We accept all major credit cards.</p>
+                           </div>
+                           <div class="form-shoping__image">
+                              <img src="img/pay.svg" alt="googlepay">
+                              <img src="img/visa.svg" alt="visa">
+                              <img src="img/paypal.svg" alt="paypal">
+                              <img src="img/pass.svg" alt="paypass">
+                           </div>
+                           <div class="form-shoping__pay pay-card">
+                              <div class="pay-card__content">
+                                 <input class="pay-card__content-input" type="tel" name="card-number"
+                                    placeholder="Card number">
+                              </div>
+                              <div class="pay-card__content">
+                                 <input class="pay-card__content-input" type="text" name="card-name"
+                                    placeholder="Name of card">
+                              </div>
+                              <div class="pay-card__content">
+                                 <input class="pay-card__content-input" type="text" name="card-date"
+                                    placeholder="Expiration date (MM/YY)">
+                              </div>
+                              <div class="pay-card__content">
+                                 <input class="pay-card__content-input" type="password" name="card-pass"
+                                    placeholder="Security Code">
+                              </div>
+                           </div>
+                           <div class="   form-shoping__info-body">
+                              <div class="form-shoping__info-cash">
+                                 <input class="form-shoping__cash-input" type="radio" id="cash" name="info-card">
+                                 <label class="form-shoping__cash-label" for="cash">Cash on delivery</label>
+                                 <p class="form-shoping__cash-text">Pay with cash upon delivery.</p>
+                              </div>
+                              <div class="form-shoping__info-paypol">
+                                 <input class="form-shoping__paypol-input" type="radio" name="info-card" id="paypol">
+                                 <label class="form-shoping__paypol-label" for="paypol">Paypol</label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <button class="form-shoping__button" form="some-form-shoping" type="submit">Pay Now</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer">
+
+      </footer>
+   </div>
+
+
+</body>
+
+</html>
