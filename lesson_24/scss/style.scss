@@ -1,0 +1,37 @@
+@use "sass:math";
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1920;
+// Ширина обмежуючого контейнера (0 = немає обмеження)
+$maxWidthContainer: 1220;
+// Загальний відступ у контейнера
+// (30 = по 15px ліворуч і праворуч, 0 = немає відступу)
+$containerPadding: 30;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+//Шрифти
+@import "_fonts.scss";
+//Обнулення
+@import "_reset.scss";
+//Компоненти
+@import "_common.scss";
+//Функції
+@import "_functions.scss";
+
+.menu-open body {
+   overflow: hidden;
+}
+
+.wrapper {
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+}
+.wrapper > main {
+   flex-grow: 1;
+}
+
