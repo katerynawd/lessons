@@ -1,0 +1,38 @@
+//Змінні 
+$whiteColor:#FFFFFF;
+$heroColor:#7D7D7D;
+$hederColor:#37393F;
+$greenColor:#40DDB6;
+$buttonColor:#6B77E5;
+$heroText:#B9B9B9;
+$ligteGray:#F4F4F4;
+
+//змінні на адаптив
+$bigAdaptive:1242px;
+$big-2Adaptive:1153.98px;
+$middleAdaptive:767.98px;
+$smoleAdaptive:467px;
+$smole-2Adaptive:371px;
+
+@mixin img($width: 1, $height: 1, $objectPosition: center, $obFit: cover) {
+   width: 100%;
+   height:100%;
+   aspect-ratio: $width #{'/'} $height;
+   object-fit: $obFit;
+   object-position: $objectPosition;
+}
+
+//Шаблони
+%header {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 50;
+}
+
+
+
+
+
+
